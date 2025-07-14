@@ -1,0 +1,6 @@
+git clone <your-github-repo-url>
+cd <your-project-folder>
+python -m venv venv      # create virtual environment
+source venv/bin/activate  # (Linux/macOS) activate venv
+# or .\venv\Scripts\activate (Windows)
+pip install -r requirements.txt  # install dependencies
